@@ -1,0 +1,13 @@
+.info {
+  max-width: 70rem;
+  margin-inline: auto;
+  margin-block: 6rem 5px;
+  font: var(--Subtitle);
+  color: var(--text-body);
+  text-align: center;
+
+  & span {
+    color: var(--blue-light);
+    font-weight: 600;
+  }
+}

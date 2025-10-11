@@ -1,0 +1,41 @@
+header {
+  position: relative;
+  display: flex;
+  max-width: 70rem;
+  margin-inline: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.5rem;
+}
+
+
+
+
+.hero {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: url(/assets/hero-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  z-index: -1;
+
+  & .text-hero {
+    max-width: 656px;
+    margin-inline: auto;
+    margin-block: 278px 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  & p {
+    font: var(--body-lg);
+    color: var(--text-body);
+  }
+}
+
+.hero-space {
+  height: 100vh;
+}
