@@ -10,4 +10,27 @@
     color: var(--blue-light);
     font-weight: 600;
   }
+
+  & img:nth-child(1) {
+    width: 88px;
+    height: 88px;
+  }
+
+  & img:nth-child(2) {
+    width: 80px;
+    height: 80px;
+  }
+
+  & img:nth-child(4) {
+    width: 72px;
+    height: 72px;
+  }
+
+  & .imgs {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+
 }
