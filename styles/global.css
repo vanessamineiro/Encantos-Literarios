@@ -83,6 +83,7 @@ a {
   padding-block: .75rem;
   border-radius: 0.5rem;
   font: var(--button);
+  text-align: center;
 }
 
 .btn-primary {

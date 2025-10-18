@@ -1,0 +1,135 @@
+.assinatura {
+  padding-top: 12.12rem;
+  padding-bottom: 18.875rem;
+  background-image: url(/assets/pricing-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    font: var(--title-xs);
+    color: var(--blue-light);
+  }
+
+  & .price {
+    margin-top: 1.5rem;
+    font: var(--title-md);
+    color: var(--text-title);
+
+    & span {
+      font: var(--title-xs);
+    }
+  }
+
+  & .valor-anual {
+    margin-top: .5rem;
+    font: var(--body-sm);
+    color: var(--text-label);
+  }
+
+
+
+
+  & .cards {
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 8rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  & .card {
+    position: relative;
+    height: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--shape-base);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    border: 1px solid var(--shape-stroke);
+
+    & img {
+      position: absolute;
+    }
+
+  }
+
+  & .details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    & ul {
+      list-style: none;
+      font: var(--body-xs);
+      color: var(--text-body);
+    }
+
+    & li {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+
+      & img {
+        position: relative;
+      }
+    }
+  }
+
+  & .semestral {
+    position: relative;
+
+    img[src*="bunny"] {
+      top: -50px;
+    }
+
+    & h3 {
+      color: var(--pink-light);
+    }
+
+    & .tag {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 1.5rem;
+      padding: 9px 20px;
+      border-radius: 999px;
+      background-color: var(--shape-stroke);
+      font: var(--tag);
+      color: var(--text-body);
+      text-transform: uppercase;
+    }
+  }
+
+  & .mensal {
+    img[src*="lg"] {
+      top: -24px;
+      left: -24px;
+    }
+
+    img[src*="sm"] {
+      top: 12px;
+      left: -30px;
+    }
+  }
+
+  & .anual {
+    img[src*="lg"] {
+      width: 23px;
+      height: 23px;
+      bottom: -18px;
+      right: -35px;
+    }
+
+    img[src*="sm"] {
+      width: 11px;
+      height: 11px;
+      bottom: -24px;
+      right: 0px;
+    }
+  }
+}
