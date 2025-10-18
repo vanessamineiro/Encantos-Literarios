@@ -44,12 +44,13 @@
   --body-sm: 400 .875rem/140% var(--ff-base);
   --body-xs: 400 .75rem/140% var(--ff-base);
   --button: 600 .875rem var(--ff-base);
-  --link: 600 .875rem var(--ff-base);
+  --link: 500 .875rem var(--ff-base);
   --tag: 700 .625rem var(--ff-base);
 }
 
 html {
   background-color: var(--shape-background);
+
 }
 
 
@@ -65,6 +66,11 @@ h2 {
 
 h3 {
   font: var(--title-xs);
+}
+
+h5 {
+  font: var(--title-xs);
+  color: var(--text-body);
 }
 
 a {
