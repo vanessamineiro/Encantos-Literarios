@@ -74,24 +74,54 @@ h5 {
 }
 
 a {
+  position: relative;
   color: inherit;
   text-decoration: none;
 }
 
 .btn {
+  position: relative;
   padding-inline: 1.25rem;
   padding-block: .75rem;
   border-radius: 0.5rem;
   font: var(--button);
   text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 25%;
+    border-radius: 100%;
+
+    scale: 0;
+    transition: scale 500ms ease;
+  }
+
+  &:hover::before {
+    scale: 2.3;
+  }
 }
 
 .btn-primary {
   background-color: var(--pink-dark);
   color: var(--text-title);
+
+  &::before {
+    background-color: var(--pink-base);
+  }
+
 }
 
 .btn-secondary {
   background-color: var(--blue-dark);
   color: var(--text-title);
+
+  &::before {
+    background-color: var(--blue-mid);
+  }
 }
