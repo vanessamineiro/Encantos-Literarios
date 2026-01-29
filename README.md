@@ -6,6 +6,8 @@ A proposta do desafio é unir **estrutura em HTML** com **animações em CSS**, 
 
 🔗 **Acesse o projeto:**  
 https://vanessamineiro.github.io/Encantos-Literarios/
+<img width="1341" height="906" alt="image" src="https://github.com/user-attachments/assets/45aea087-9736-4393-b107-79f02507f927" />
+
 
 ---
 
